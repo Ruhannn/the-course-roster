@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import TotalContainer from "./TotalContainer";
 import toast from "react-hot-toast";
+import { FaDollarSign } from "react-icons/fa6";
 function CourseList({ courses, selectCourse }) {
   return (
     <div className="grid grid-cols-3 gap-7 place-items-center">
@@ -22,11 +23,11 @@ function CourseList({ courses, selectCourse }) {
           </p>
           <div className="grid gap-4 my-2 grid-cols-1 sm:grid-cols-2">
             <div className="flex items-center">
-              <img src="src/assets/dollar.svg" alt="Price Icon" />
+              <FaDollarSign></FaDollarSign>
               <h1 className="text-sm">Price: {course.price}</h1>
             </div>
             <div className="flex items-center">
-              <img src="src/assets/Frame.svg" alt="Credit Icon" />
+              <img width={22} src="https://i.ibb.co/njN03Wp/svgviewer-png-output.png" alt="" />
               <h1 className="text-sm">Credit: {course.credit}hr</h1>
             </div>
           </div>
