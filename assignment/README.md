@@ -30,7 +30,7 @@ The **`setCourses`** function is used to update the **`courses`** state when the
 
 
 # # 2.Remaining Credits State:
-The remaining credits are tracked using the **`remainingCredits`** state, also initialized with the **`useState`** hook.
+The remaining credits are tracked using the **`remainingCredits`** state, also initialized with the **`useState`** hook
 
 
    ``` const [remainingCredits, setRemainingCredits] = useState(maxCredits);```
@@ -67,3 +67,4 @@ When a course is selected, it is added to the **`selectedCourses`** array.
 `selectedCourses` array.
 
 In summary, state management is primarily done using the **`useState`** hook, and the states are updated as users interact with the course selection feature. This allows for dynamic updates to the UI based on changes in the selected courses and remaining credits.
+___
