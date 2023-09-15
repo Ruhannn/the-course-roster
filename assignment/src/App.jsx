@@ -1,19 +1,5 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
-function App() {
-  return (
-    <>
-      <h1 className="text-center">Course Registration</h1>
-      {/* container */}
-      <div className="container">
-        {/* Course */}
-        <div>
+import TotalContainer from "./TotalContainer";
 
-        </div>
-        {/* total container */}
-        <div></div>
-      </div>
-    </>
-  );
-}
 export default App;
