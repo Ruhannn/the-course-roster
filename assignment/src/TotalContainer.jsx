@@ -1,7 +1,7 @@
 import React from "react";
 function TotalContainer({ remainingCredits, totalCreditHours, totalPrice, selectedCourses }) {
     return (
-      <div className="bg-white rounded-lg p-6 h-[380px]">
+      <div className="bg-white rounded-lg p-6 h-[400px]">
         <h1 className="text-[#2F80ED] text-lg font-bold leading-8 mb-4 pb-3 border-b-2 border-[#1c1b1b] border-opacity-20">
           Credit Hour Remaining {remainingCredits} hr
         </h1>
